@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
+  <diagram name="Page-1" id="4GhxJ3x2ZIjGT0eRnkmw">
+    <mxGraphModel dx="793" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Kali Linux VM" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgMjQwIj48cGF0aCBmaWxsPSIjNTU3QTlCIiBkPSJNMTIwIDEyMEMxMjAgNTMuNzIgMTY2LjcyIDcuMTQgMjQwIDcuMTRDMjQwIDgwLjI4IDEyMCAxMjAgMTIwIDEyMHoiLz48cGF0aCBmaWxsPSIjRkZDRjAwIiBkPSJNMTIwIDEyMEMxMjAgMTY2LjI4IDUzLjcyIDIzMi44IDcuMTQgMTYwQzgwLjI4IDE2MCAxMjAgMTIwIDEyMCAxMjB6Ii8+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTEyMCAxMjBDMTY2LjI4IDEyMCAyMzIuOCAxNjYuMjggMjMyLjggMjQwQzE2MCAyNDAgMTIwIDEyMCAxMjAgMTIweiIvPjwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Host Machine" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjMDA3QUZGIiBkPSJNNDQ4IDQxNkg2NEMyOC43IDQxNiAwIDM4Ny4zIDAgMzUyVjE2MGMwLTM1LjMgMjguNy02NCA2NC02NGgzODRjMzUuMyAwIDY0IDI4LjcgNjQgNjR2MTkyYzAgMzUuMy0yOC43IDY0LTY0IDY0ek0zMjAgMzM2YzAgOC44LTcuMiAxNi0xNiAxNkgxNjhjLTguOCAwLTE2LTcuMi0xNi0xNnYtMzJjMC04LjggNy4yLTE2IDE2LTE2aDEzNmM4LjggMCAxNiA3LjIgMTYgMTZ2MzJ6Ii8+PC9zdmc+;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Internet" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNNDQ4IDI1NkM0NDggMTE0LjYgMzQ5LjQgMzIgMjI0IDMyUzAgMTE0LjYgMCAyNTZjMCAxMTQuNiA5OC42IDIwNy45IDIyNCAyMjR2LTk2Yy04NC4yIDAtMTUyLTY3LjgtMTUyLTE1MlMxMzkuOCAxMDQgMjI0IDEwNHMxNTIgNjcuOCAxNTIgMTUyLTY3LjggMTUyLTE1MiAxNTJ2OTZjMTI1LjQtMTYuMSAyMjQtMTA5LjQgMjI0LTIyNHoiLz48L3N2Zz4=;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Bridged Network" style="edgeStyle=none;rounded=1;html=1;endArrow=classic;startArrow=classic;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="300" as="sourcePoint" />
+            <mxPoint x="360" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="" style="edgeStyle=none;rounded=1;html=1;endArrow=classic;startArrow=classic;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="520" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
