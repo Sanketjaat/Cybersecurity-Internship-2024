@@ -7,4 +7,5 @@
 
 ## Network Setup
 ![Lab Network Diagram](../images/network_diagram.png)
-![Lab Network Diagram](3_Lab_Network_Diagram.md)
+
+![Lab Network Diagram](/3_Lab_Network_Diagram.md)
