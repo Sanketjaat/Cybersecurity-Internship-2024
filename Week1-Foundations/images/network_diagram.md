@@ -1,2 +1,2 @@
 ## Network Diagram
-![Lab Network Diagram](images/network_diagram.png)
+![Lab Network Diagram](network_diagram.png)
