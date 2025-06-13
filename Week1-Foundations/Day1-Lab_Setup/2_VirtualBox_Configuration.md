@@ -6,4 +6,4 @@
 - **Snapshots**: Taken before experiments
 
 ## Network Setup
-![Network Diagram](Lab_Network_Diagram.drawio)
+![Lab Network Diagram](images/network_diagram.png)
