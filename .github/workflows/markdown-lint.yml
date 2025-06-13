@@ -1,0 +1,10 @@
+name: Markdown Lint
+on: push
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: npm install -g markdownlint-cli
+      - run: markdownlint '**/*.md' --ignore node_modules
